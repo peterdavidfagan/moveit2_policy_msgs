@@ -1,0 +1,13 @@
+# request
+sensor_msgs/Image rgb 
+sensor_msgs/Image depth
+
+---
+
+# result
+bool success
+
+---
+
+# feedback
+string status
