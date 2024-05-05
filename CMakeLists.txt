@@ -14,9 +14,10 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(action_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 set(ACT_FILES
-	"action/transporter.action"
+	"action/TRANSPORTER.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
