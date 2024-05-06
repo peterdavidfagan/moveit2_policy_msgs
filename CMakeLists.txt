@@ -17,7 +17,7 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 set(ACT_FILES
-	"action/TRANSPORTER.action"
+	"action/Transporter.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
